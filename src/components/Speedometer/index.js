@@ -4,9 +4,11 @@ import './index.css'
 
 class Speedometer extends Component {
   state = {count: 0}
+
   increase = () => {
     this.setState(prevState => ({count: prevState.counter + 1}))
   }
+
   brake = () => {
     this.setState(prevState => ({count: prevState.counter - 1}))
   }
@@ -21,7 +23,7 @@ class Speedometer extends Component {
           className="image"
           alt="speedometer"
         />
-        <h1 className="heading">`Speed is ${count}mph`</h1>
+        <h1 className="heading">Speed is {count}mph</h1>
         <p className="para">Min Limit is 0mph, Max Limit is 200mph</p>
         <div className="buttons-container">
           <button type="button" className="btn1" onClick={this.increase}>

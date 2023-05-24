@@ -4,28 +4,34 @@
 }
 .bg {
   background-color: #07080c;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 15px;
 }
 .main-heading {
   color: #ffffff;
   font-style: italic;
   text-align: center;
+  font-size: 40px;
 }
 .image {
-  height: 80px;
+  height: 200px;
 }
 .heading {
   color: #ffffff;
   text-align: center;
+  font-size: 30px;
 }
 .para {
   color: #cbd5e1;
   text-align: center;
+  font-size: 12px;
 }
 .buttons-container {
+  margin-bottom: 15px;
   display: flex;
   justify-content: space-between;
 }
@@ -38,13 +44,14 @@
   padding: 15px;
   cursor: pointer;
   outline: none;
+  margin-right: 15px;
 }
 .btn2 {
   background-color: transparent;
   color: #94a3b8;
   border-radius: 10px;
   border-style: solid;
-  border-color: #94a3b;
+  border-color: #94a3b8;
   padding: 15px;
   cursor: pointer;
   outline: none;
