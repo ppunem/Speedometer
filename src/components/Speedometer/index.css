@@ -1,0 +1,42 @@
+/* Write your CSS here */
+* {
+  font-family: 'roboto';
+}
+.bg {
+  background-color: #07080c;
+  height: 100vh;
+  background-size: cover;
+}
+.main-heading {
+  color: #ffffff;
+  font-style: italic;
+}
+.image {
+  height: 80px;
+}
+.heading {
+  color: #ffffff;
+}
+.para {
+  color: #cbd5e1;
+}
+.btn1 {
+  background-color: #0b69ff;
+  color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: transparent;
+  padding: 15px;
+  cursor: pointer;
+  outline: none;
+}
+.btn2 {
+  background-color: transparent;
+  color: #94a3b8;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #94a3b;
+  padding: 15px;
+  cursor: pointer;
+  outline: none;
+}
