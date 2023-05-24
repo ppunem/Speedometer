@@ -4,21 +4,30 @@
 }
 .bg {
   background-color: #07080c;
-  height: 100vh;
-  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .main-heading {
   color: #ffffff;
   font-style: italic;
+  text-align: center;
 }
 .image {
   height: 80px;
 }
 .heading {
   color: #ffffff;
+  text-align: center;
 }
 .para {
   color: #cbd5e1;
+  text-align: center;
+}
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
 }
 .btn1 {
   background-color: #0b69ff;
